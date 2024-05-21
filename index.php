@@ -48,6 +48,24 @@
         <br> <br>
         <button type="submit">Submit</button>
     </form>
+    <?php 
+    //operators
+    //string operators
+    $a = "Hello";
+    $b = "Wolrd";
+    $c = $a . " ". $b;
+    echo $c;
+    //arithmetic operators
+    echo '<br>';
+    $a = 3;
+    $b = 4;
+    $c = $a + $b; //+ - * /%
+    echo $c;
+    //logical operators
+    // ||/or ,&&/and 
+    //comparison operators
+    // ==, ===, !==, !=, <,> e.t.c   
+    ?>
 
 </body>
 
